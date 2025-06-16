@@ -1,14 +1,74 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Proyecto 4</title>
   </head>
   <body>
-    <h1>Hola soy un título</h1>
-    <p>Hola soy un párrafo</p>
+    <div class="container">
+      <header class="header">
+        <a href="#" class="restart">
+          <img src="/img/artize-logo.svg" alt="Logo">
+        </a>
+        <nav class="main-menu">
+          <ul>
+            <li><a href="#">Market</a></li>
+            <li><a href="#">How it works</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div class="registro">
+          <ul>
+            <li><a href="#">Sing Up</a></li>
+            <li class="button-sing"><a href="#">Sing In</a></li>
+          </ul>
+        </div>        
+      </header>
+      <section class="hero">
+        <section class="hero-content">
+          <h1 class="hero-title">
+            The largest NFT market with exceptional items on the bid
+          </h1>
+          <p class="sub-title">
+            <span>Collect</span>ible and non-fungible tokens in your hands
+          </p>
+          <a href="#" class="button">Explore</a>
+          <a href="#" class="second">Learn more <img src="/img/arrow.svg" alt=""></a>
+          <h2>Featured Artwork</h2>
+          <div class="image">
+            <img class="left" src="/img/imagen-izquierda.jpg" alt="img">
+            <img class="right" src="/img/imagen-derecha.jpg" alt="img"> 
+          </div>
+        </section>
+        <section class="aside">
+          <aside class="promote">
+            <img src="/img/foto-cara.png" alt="User">
+            <div class="information">
+              <p class="user">@samanthaw</p>
+              <p>Artwork #01</p>
+              <p>Current Bid</p>
+              <p>1.00 ETH</p>   
+            </div>
+           <div class="enlaces">
+            <a href="#" class="button-bid">Bid Now</a>
+            <a href="#">View Artwork</a>  
+           </div>           
+          </aside>
+
+          <div class="info">
+            <p><span>50k+</span>Artwork</p>
+            <p><span>30k+</span>Artist</p>
+            <p><span>20k+</span>Auction</p>
+          </div>
+        </section>
+      </section>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
